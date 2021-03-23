@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+/* GENERAL CSS */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.8em;
+}
+
+p {
+  font-size: 1.3em;
+  margin-left: 30px;
+}
+
+section {
+  padding: 35px 55px;
+}
+
+li {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+.recipe-info {
+  background: url("/lab-css-recipes-clone/apple-pie/images/recipe-info.png");
+  width: 600px;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cooking-info {
+  background: url("/lab-css-recipes-clone/apple-pie/images/cooking-info.png");
+  width: 500px;
+  height: 100px;
+  margin-left: 100px;
+  justify-content: space-around;
+}
+
+header {
+  margin: 0;
+  background-color: black;
+  background-size: cover;
+  color: white;
+  padding: 150px 20px;
+  text-align: center;
+  font-size: 2em;
+}
+
+ul.ingredients {
+  list-style-type: none;
+}
+
+.ingredients li:before {
+  content: "-";
+  position: relative;
+  left: -10px;
+}
